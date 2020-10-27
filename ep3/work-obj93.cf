@@ -1,0 +1,29 @@
+v 4
+file . "t3a3.vhd" "4802b8b0c9ee07c6e2e52ac03c083d62e4f83e6d" "20201015013754.660":
+  entity calc at 1( 0) + 0 on 343;
+  architecture calc_arch of calc at 15( 267) + 0 on 344;
+  entity flipflop at 82( 2174) + 0 on 345;
+  architecture flipflop_arch of flipflop at 98( 2407) + 0 on 346;
+  entity reg at 117( 2823) + 0 on 347;
+  architecture reg_arch of reg at 135( 3139) + 0 on 348;
+  entity regfile at 167( 3748) + 0 on 349;
+  architecture regfile_arch of regfile at 187( 4190) + 0 on 350;
+  entity fa_1bit at 242( 5487) + 0 on 351;
+  architecture wakerly of fa_1bit at 255( 5758) + 0 on 352;
+  entity fa_nbits at 264( 6009) + 0 on 353;
+  architecture fa_nbits_arch of fa_nbits at 280( 6284) + 0 on 354;
+file . "calc.vhd" "5d4da15472a2891920f38b787a5d24aa60498f80" "20201015010907.392":
+  architecture arch_calc of calc at 16( 340) + 0 on 232;
+  architecture arch of regfile at 101( 2848) + 0 on 234;
+  architecture dataflow of reg at 163( 4671) + 0 on 236;
+  entity ffd at 180( 5104) + 0 on 237;
+  architecture processor of ffd at 190( 5279) + 0 on 238;
+file . "reg_tb.vhd" "8a8c70932317e70d3344dc2dda7af86dd7ed59e8" "20201013185747.943":
+  entity reg_tb at 1( 0) + 0 on 81;
+  architecture tb of reg_tb at 8( 117) + 0 on 82;
+file . "regfile_tb.vhd" "016884fc4da0dc1468df6e43a88166e42eef2eee" "20201014170617.164":
+  entity regfile_tb at 1( 0) + 0 on 123;
+  architecture tb of regfile_tb at 9( 133) + 0 on 124;
+file . "t3a3_tb.vhd" "39d057bb07b95e2f4bbbee6c213b29e7bedc3730" "20201015013754.662":
+  entity t3a3_tb at 7( 257) + 0 on 355;
+  architecture testbench of t3a3_tb at 15( 387) + 0 on 356;
